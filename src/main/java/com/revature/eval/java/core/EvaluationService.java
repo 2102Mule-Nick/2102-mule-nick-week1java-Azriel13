@@ -34,8 +34,12 @@ public class EvaluationService {
 	public String acronym(String phrase) {
 		// TODO Write an implementation for this method declaration
 		
+		StringBuilder acro = new StringBuilder();
+		for(String a : phrase.split(" ")) {
+			acro.append(a.charAt(0));
+		}
+		System.out.println(acro);
 		
-
 		return null;
 
 	}
